@@ -17,3 +17,4 @@ From the main menu, press (1) to play the game and (2) to change the game settin
 To change difficulty settings, enter the options menu and select easy (E), medium (M), or hard (H). <br>
 Higher difficulties lead to stronger and faster enemies whose speed increases over time.<br>
 
+TODO: Implement quad-tree for more efficient collision detection.
