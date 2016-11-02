@@ -4,8 +4,11 @@ import org.newdawn.slick.geom.Ellipse;
 import org.newdawn.slick.geom.Shape;
 
 public class Enemy {
-    private int health;
-    private int damage;
+    private final int HEALTH = 10;
+    private final int DAMAGE = 10;
+    
+    private int HEALTH;
+    private int DAMAGE;
     private double xPos;
     private double yPos;
     private Image enemy;
