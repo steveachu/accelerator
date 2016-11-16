@@ -21,9 +21,7 @@ public class GameOver extends Play {
     	Play.updatePlay();
     	
         if (gc.getInput().isKeyPressed(Input.KEY_Y)) {
-        	
-            sbg.enterState(1, new FadeOutTransition(), new FadeInTransition());
-            
+            sbg.enterState(1, new FadeOutTransition(), new FadeInTransition());            
         }
         
         if (gc.getInput().isKeyPressed(Input.KEY_N)) {
