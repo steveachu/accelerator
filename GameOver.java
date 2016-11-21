@@ -12,11 +12,7 @@ public class GameOver extends Play {
     public int getID() {
         return 4;
     }
-
-    public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
     
-    }
-
     public void update(GameContainer gc, StateBasedGame sbg, int i) throws SlickException {
     	Play.updatePlay();
     	
@@ -28,7 +24,6 @@ public class GameOver extends Play {
             sbg.enterState(0, new FadeOutTransition(), new FadeInTransition());
         }
     }
-    
     
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException {
         g.setColor(Color.white);
