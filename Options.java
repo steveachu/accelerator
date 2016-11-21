@@ -14,10 +14,6 @@ public class Options extends Play {
     public int getID() {
         return 2;
     }
-    
-    public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
-        
-    }
 
     public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException {
         g.setColor(Color.white);
