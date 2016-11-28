@@ -15,7 +15,7 @@ public class Enemy {
     private Shape enemyHB; 
     
     public Enemy(String path) throws SlickException {
-        health = 10;
+        health = 20;
         damage = 10;
         xPos = 0.0;
         yPos = 0.0;
