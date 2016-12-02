@@ -6,7 +6,6 @@ import org.newdawn.slick.SlickException;
 import org.newdawn.slick.state.StateBasedGame;
 
 public class Options extends Play {
-    static int gameMode = 700;
     static Boolean easy = false;
     static Boolean normal = false;
     static Boolean hard = false;
