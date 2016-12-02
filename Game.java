@@ -5,7 +5,6 @@ import org.newdawn.slick.state.StateBasedGame;
 import java.awt.Window;
 
 public class Game extends StateBasedGame {
-    
     public static int lives = 3;
 
     public static void main(String[] args) throws SlickException {
