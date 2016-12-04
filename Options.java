@@ -7,7 +7,7 @@ import org.newdawn.slick.state.StateBasedGame;
 
 public class Options extends Play {
     static Boolean easy = false;
-    static Boolean normal = false;
+    static Boolean normal = true;
     static Boolean hard = false;
 	
     public int getID() {
