@@ -8,8 +8,7 @@ import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
 
 public class GameOver extends Play {
-
-    public int getID() {
+    publoc int getID() {
         return 4;
     }
     
